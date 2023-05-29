@@ -9,10 +9,10 @@ Usage:
 
 Flags:
   -u, --url string         The target domain [Required]
-  -w, --wordlist string    Set the wordlist e.g shubs-domain.txt [Required]
+  -w, --wordlist string    Set the wordlist e.g shubs-subdomains.txt [Required]
   -d, --delay              Set delay in ms per goroutine request [Default=100]
-  -r, --response           Filter codes separated by space: e.g 200 302 402
-  -t, --threads            Number of concurrent goroutine [Default=10]
+  -r, --response           Filter out codes separated by space: e.g 200 302 402
+  -t, --threads            Number of concurrent goroutines [Default=10]
   -s, --timeout            Timeout for each request [Default=2s]
   -h, --help               Display the help page
 
