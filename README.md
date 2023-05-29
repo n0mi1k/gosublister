@@ -10,20 +10,21 @@ Usage:
 Flags:
   -u, --url string         The target domain [Required]
   -w, --wordlist string    Set the wordlist e.g shubs-domain.txt [Required]
-  -d, --delay              Set delay in milliseconds per goroutine request
+  -d, --delay              Set delay in ms per goroutine request [Default=100]
   -r, --response           Filter codes separated by space: e.g 200 302 402
   -t, --threads            Number of concurrent goroutine [Default=10]
+  -s, --timeout            Timeout for each request [Default=2s]
   -h, --help               Display the help page
 
 ```
-**Note:** If the target has rate limiting, consider using the time delay feature.
+**Note:** If the target has rate limiting, use the time delay feature and reduce threads.
 
 ## Releases
 
-A built version for Windows and Kali (Debian) has been created, please view **releases** page or check **release** folder.
+Built version for Kali (Debian), macOS (arm64, amd64) and Windows has been created, please view [releases](https://github.com/n0mi1k/gosublister/releases) page.
 
 ## Demo Run
-<img width="657" alt="ss" src="https://user-images.githubusercontent.com/28621928/233854467-43fc1dc5-b174-4110-9b94-9bccda58f7a1.png">
+<img width="700" alt="ss" src="https://github.com/n0mi1k/gosublister/assets/28621928/1b08992b-983a-4c4b-acf5-12615f1d91a4">
 
 ## Building Steps
 
