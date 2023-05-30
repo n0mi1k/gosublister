@@ -26,6 +26,8 @@ Built version for Kali (Debian), macOS (arm64, amd64) and Windows has been creat
 ## Demo Run
 <img width="700" alt="ss" src="https://github.com/n0mi1k/gosublister/assets/28621928/1b08992b-983a-4c4b-acf5-12615f1d91a4">
 
+More subdomain wordlists can be found on seclists [here](https://github.com/danielmiessler/SecLists/tree/master/Discovery/DNS).
+
 ## Building Steps
 
 Building gosublister only requires go-arg external module if you wish to re-build the project.
